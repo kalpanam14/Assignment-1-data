@@ -1,7 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# In[1]:
 
 
 import pandas as pd
@@ -33,8 +30,6 @@ df['total_cost'] = df.apply(calculate_total_cost, axis=1)
 # Print the DataFrame with the new column
 print(df)
 
-
-# In[ ]:
 
 
 
